@@ -1,5 +1,15 @@
-## TextureConverter
+# TextureConverter
 
+### 使い方 How to use
+
+exeを起動してフォルダから選択、又は、ドラックアンドドロップで画像ファイル(png、jpg、bmp etc)を読み込みます。
+メニューからエンコードを選択して、オプションの設定をしてエンコードボタンを押すとエンコードが実行されます。
+
+Start the exe and select from the folder, or read image files (png, jpg, bmp etc) by drag and drop.
+Choose the encoding from the menu, then set the options, and finally press the encode button to execute the encoding.
+
+- - -  
+### ライセンス License  
 MIT License
 
 Copyright (c) 2020 snakegtrr35
