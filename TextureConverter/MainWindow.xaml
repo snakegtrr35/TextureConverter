@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TextureConverter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="TextureConverter" Height="720" Width="1280" Background="LightGray" AllowDrop="True" DragEnter="event_DragEnter" Drop="event_Drop">
+	<Grid>
+		<DockPanel>
+			<Menu DockPanel.Dock="Top">
+				<MenuItem Header="メニュー">
+					<MenuItem Tag="file" Header="ファイルを開く" Click="MenuItem_Click" />
+					<MenuItem Tag="file_close" Header="ファイルを閉じる" Click="MenuItem_Click" />
+					<MenuItem Tag="encode" Header="エンコード" Click="MenuItem_Click" />
+					<MenuItem Tag="close" Header="閉じる" Click="MenuItem_Click" />
+				</MenuItem>
+			</Menu>
+			<TextBlock Name="textblock" />
+		</DockPanel>
+
+		<Border Name="Border1" ClipToBounds="True">
+			<Image Name="image" Stretch="Uniform" MouseWheel="Image_MouseWheel" MouseLeftButtonDown="Image_MouseLeftButtonDown" MouseMove="Image_MouseMove" MouseLeftButtonUp="Image_MouseLeftButtonUp"/>
+		</Border>
+	</Grid>
 </Window>
