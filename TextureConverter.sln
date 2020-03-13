@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureConverter", "TextureConverter\TextureConverter.csproj", "{B2D9A373-80FD-4C4B-B74D-5EC43DF93679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D9A373-80FD-4C4B-B74D-5EC43DF93679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D9A373-80FD-4C4B-B74D-5EC43DF93679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D9A373-80FD-4C4B-B74D-5EC43DF93679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D9A373-80FD-4C4B-B74D-5EC43DF93679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EDD42CB-4A28-4DDF-BE57-910B93B21776}
+	EndGlobalSection
+EndGlobal
